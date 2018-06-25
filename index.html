@@ -1,0 +1,57 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card card-custom bg-light mb-3 mt-5" style="max-width: 30rem;">
+            <div class="card-header bg-primary text-white">CURRENCY CONVERTER</div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control text-right" id="amount" aria-describedby="amount" placeholder="Enter Amount to Convert">
+                    </div>
+                      <div class="form-group form-inline">
+                        <select class="custom-select">
+                          <option selected="">Open this select menu</option>
+                          <option value="1">GDP</option>
+                          <option value="2">USD</option>
+                          <option value="3">NGN</option>
+                        </select>
+                        <span class="fa fa-exchange change-icon"></span>
+                         <select class="custom-select">
+                          <option selected="">Open this select menu</option>
+                          <option value="1">NGN</option>
+                          <option value="2">USD</option>
+                          <option value="3">GDP</option>
+                        </select>
+                      </div>
+                    <button type="button" class="btn btn-primary btn-md btn-block">CONVERT</button>
+                </form>
+            </div>
+            <div class="card-body text-right">
+                <h1>$129,233.20</h1>
+                <p class="text-primary mb-0">1 GBP = 1.50623 USD</p>
+
+                <p class="text-primary">1 USD = 1.832323 USD</p>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript" src="jquery.3.2.1.min.js"></script>
+<script type="text/javascript" src="popper.min.js"></script>
+
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+
+</body>
+</html>
