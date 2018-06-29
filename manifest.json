@@ -3,7 +3,7 @@
   "author": "Adeniran Opeyemi",
   "background_color": "#ffffff",
   "description": "A Web App for converting Currency",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
 
     {
