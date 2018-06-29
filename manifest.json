@@ -16,7 +16,7 @@
   "manifest_version": 2,
   "name": "Currency Converter",
   "orientation": "portrait",
-  "short_name": "C.Convert",
+  "short_name": "Horpey Convert",
   "start_url": "https://horpey.github.io/Currency-converter/index.html",
   "theme_color": "#ffffff",
   "version": "0.1"
