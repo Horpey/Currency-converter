@@ -18,7 +18,7 @@
   "orientation": "portrait",
   "short_name": "Horpey Convert",
   "start_url": "https://horpey.github.io/Currency-converter/index.html",
-  "theme_color": "#ffffff",
+  "theme_color": "#000000",
   "version": "0.1"
 
 }
