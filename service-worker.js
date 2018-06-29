@@ -12,7 +12,8 @@ var cacheFiles = [
   './js/idb.js',
   'https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js',
-  './manifest.json'
+  './manifest.json',
+  './logo.png'
 ]
 
 
