@@ -44,9 +44,9 @@ body {
 }
 
 .bg-black {
-    background-color: #1a1a1a;
+    background: linear-gradient(90deg, #51abd8, #51abd8);
     min-height: 119px;
-    border-bottom: 4px solid #424242;
+    border-bottom: 4px solid #ffc117;
 }
 
 .text-white {
@@ -54,6 +54,7 @@ body {
 }
 
 .headerr {
+    background: linear-gradient(90deg, #51abd8, #51abd8);
     padding: 14px 23px;
     font-size: 20px;
 }

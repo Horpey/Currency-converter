@@ -29,7 +29,13 @@
     <div class="container">
 
         <div class="card card-custom bg-light mb-3 mt-5 no-border" style="max-width: 30rem;">
-            <div class="card-header bg-primary text-white headerr">CURRENCY CONVERTER</div>
+            <div class="card-header bg-primary text-white headerr text-center">CURRENCY CONVERTER</div>
+            <div class="card-body text-right bg-black">
+                <h1 id="viewValue" class="text-center text-white"></h1>
+                <div class="convertDiv text-center">
+                    <p class="badge badge-light mb-0 text-center" id="conversionUnit"></p>
+                </div>
+            </div>
             <div class="card-body bbl">
                 <form onsubmit="return false">
                     <div class="form-group">
@@ -48,12 +54,7 @@
                     <!-- <button type="button" class="btn btn-primary btn-md btn-block" onclick="convert()">CONVERT</button> -->
                 </form>
             </div>
-            <div class="card-body text-right bg-black">
-                <h1 id="viewValue" class="text-center text-white"></h1>
-                <div class="convertDiv text-center">
-                    <p class="badge badge-light mb-0 text-center" id="conversionUnit"></p>
-                </div>
-            </div>
+
         </div>
         <p class="text-center text-white"> &copy;
             <a class="text-white" href="https://github.com/Horpey" target="_blank">https://github.com/horpey</a>
