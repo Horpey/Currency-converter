@@ -18,7 +18,10 @@ const getFromCurrencyValue = () => {
     return el("#fromCurrencyValue").value;
 };
 
+
+// Initial Values
 document.getElementById("viewValue").innerHTML = `00.00`;
+document.getElementById("conversionUnit").innerHTML = `Lek 1 = Lek 1`;
 
 
 // sortSelectOptions('#fromCurrency', true);
