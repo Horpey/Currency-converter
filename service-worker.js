@@ -60,18 +60,6 @@ self.addEventListener('activate', function (e) {
 self.addEventListener('fetch', function (e) {
   console.log('[ServiceWorker] Fetch', e.request.url);
 
-
-  // Check to see if the service worker controlling the page at initial load
-  // has become redundant, since this implies there's a new service worker with fresh content.
-  if (navigator.serviceWorker.controller) {
-    navigator.serviceWorker.controller.onstatechange = function (event) {
-      if (event.target.state === 'redundant') {
-        console.log("Service Worker is redundant. New content is available, refresh to see the changes!")
-        // window.showToast('Site updated. Refresh this page to see the latest content.');
-      }
-    };
-  }
-
   // e.respondWidth Responds to the fetch event
   e.respondWith(
 
